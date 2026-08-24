@@ -33,6 +33,7 @@ Course.CourseName,
 Course.Credits,
 Enrollment.EnrollmentID,
 Enrollment.StudentID
-FROM Course
-RIGHT JOIN Enrollment
-ON Course.CourseID = Enrollement.CourseID;
+FROM Enrollent
+RIGHT JOIN Course
+ON Enrollment.CourseID =
+Course.CourseID;
