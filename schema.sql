@@ -4,9 +4,9 @@ CourseName VARCHAR(50),
 Credits INT
 );
 CREATE TABLE Enrollment (
-EnrollmentID INT PRIMARY KEY,
-StudentID INT,
-CourseID INT
+    EnrollmentID INTEGER PRIMARY KEY,
+    StudentID INTEGER,
+    CourseID INTEGER
 );
 INSERT INTO Course VALUES
 (201, 'Database System', 4),
